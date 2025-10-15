@@ -36,8 +36,8 @@ button.addEventListener("click", () => {
   popSound.currentTime = 0;
   popSound.play();
 
-  // add visual pop
   result.classList.add("pop");
   setTimeout(() => result.classList.remove("pop"), 100);
 });
+
 
